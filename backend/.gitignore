@@ -11,6 +11,8 @@ dist/
 build/
 out/
 
+# Logs
+logs/
 # Environment variables
 .env
 .env.local
