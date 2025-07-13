@@ -28,7 +28,9 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "@clerk/backend": "^2.4.1",
     "@clerk/clerk-sdk-node": "^4.13.23",
+    "@clerk/express": "^1.7.5",
     "@prisma/client": "^6.11.1",
     "cors": "^2.8.5",
     "dotenv": "^17.2.0",

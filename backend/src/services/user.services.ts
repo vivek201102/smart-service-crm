@@ -1,6 +1,7 @@
 import { Role } from "@/generated/prisma"
 import { prisma } from "@/lib/prisma"
 import { CreateUserRequest } from "@/models/user.models"
+import { logger } from "@/utils/logger"
 
 export const userService = {
     createUser: async (

@@ -34,6 +34,8 @@
       "@/types/*": ["./types/*"]
     }
   },
+  "typeRoots": ["./src/types", "./node_modules/@types"],
+  "types": ["node", "express", "@/types/express"],
   "include": [
     "src/**/*"
   ],

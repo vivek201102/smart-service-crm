@@ -8,8 +8,7 @@ export const handleUserCreatedWebhook = async (
     res: Response
 ) => {
     try {
-        const { id, email_addresses, first_name, last_name } = req.body;
-        
+        const { id, email_addresses, first_name, last_name } = req.body.data;
         const request : CreateUserRequest = {
             clerkId: id,
             email: email_addresses[0]?.email_address,
